@@ -23,7 +23,11 @@ const Hero = () => {
           <div className="bg-gradient-to-b from-[#3f5125] to-[#364823] rounded-full rounded-b-none lg:w-40 h-20 lg:p-8 p-4 absolute top-[40%] lg:-right-32 -right-[16%]">
             <button className="rounded-full bg-[#ff8267] text-[#762f20] h-24 w-24 p-4 relative z-20 transition ease-out duration-300 transform hover:scale-125">
               <p className="lg:text-[1.7rem] text-xl font-medium">LET'S TALK</p>
-              <img src='/assets/arrow-left.png' alt="arrow" className="lg:w-full w-1/2 h-12 absolute lg:-right-20 -right-4 top-[25%]" />
+              <img
+                src="/assets/arrow-left.png"
+                alt="arrow"
+                className="lg:w-full w-1/2 h-12 absolute lg:-right-20 -right-4 top-[25%]"
+              />
             </button>
           </div>
         </div>
@@ -36,14 +40,6 @@ const Hero = () => {
             SOFTWARE ENGINEER // PRODUCT DESIGNER
           </p>
         </div>
-      </div>
-
-      <div className="lg:h-32 h-16 bg-[#2e431f] flex items-center overflow-hidden justify-center">
-          <img src="/assets/logo1.png" alt="" className="lg:h-16  lg:w-40 w-20 lg:mr-20 mr-6" />
-          <img src="/assets/logo2.png" alt="" className="lg:h-16  lg:w-40 w-20 lg:mr-20 mr-6" />
-          <img src="/assets/logo3.png" alt="" className="lg:h-16  lg:w-40 w-20 lg:mr-20 mr-6" />
-          <img src="/assets/logo4.png" alt="" className="lg:h-16  lg:w-40 w-20 lg:mr-20 mr-6" />
-          <img src="/assets/logo5.png" alt="" className="lg:h-16  lg:w-40 w-20 lg:mr-20 mr-6" />
       </div>
     </div>
   );
