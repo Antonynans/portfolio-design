@@ -47,13 +47,13 @@ const Hire_me = () => {
             </label>
 
             <div className="pt-4 flex justify-end h-40">
-              <div className="bg-gradient-to-b from-[#3f5125] to-[#364823] rounded-full rounded-b-none lg:w-40 w-32 lg:h-20 h-16 lg:p-10 p-6">
-                <button className="rounded-full bg-[#ff8267] text-[#762f20] h-20 w-20 p-4 relative">
-                  <p className="text-2xl font-medium">SEND</p>
+              <div className="bg-gradient-to-b from-[#3f5125] to-[#364823] rounded-full rounded-b-none lg:w-40 w-32 lg:h-20 h-16 lg:p-8 p-6">
+                <button className="rounded-full bg-[#ff8267] text-[#762f20] lg:h-24 h-20 lg:w-24 w-20 p-4 relative transition ease-out duration-300 transform hover:scale-125">
+                  <p className="lg:text-2xl text-lg font-medium">SEND</p>
                   <img
                     src="/assets/arrow-right.png"
                     alt="arrow"
-                    className="lg:w-full w-1/2 h-12 absolute lg:-left-16 -left-8 top-[25%]"
+                    className="lg:w-full w-1/2 h-12 absolute lg:-left-20 -left-8 top-[25%]"
                   />
                 </button>
               </div>
